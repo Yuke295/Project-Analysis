@@ -2,6 +2,8 @@
 
 By [Yuke Cao](https://www.linkedin.com/in/yuke-cao-261838191/)
 
+Link to hosted website: [COVID-19 Risk to Washington Workers Smart Dashboard](https://hgis.uw.edu/covid19-workers/)
+
 ## Project Description
 ![cover](img/cover.png)
 
