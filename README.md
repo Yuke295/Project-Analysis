@@ -16,7 +16,6 @@ The following are the main functionalities of this smart dashboard.
 - A clickable map that allows user to navigate through different counties' risk in Washington State. The map contains four different features in different colors to estimate the overall risk level to workers is based on a holistic interpretation of the infection risk, unemployment risk and occupation risk.
 - A zoom bar that allows users to zoom to the original map.
 - The color scale to shows the risk level.
-![overall](img/overallrisk.png) ![infection](img/infection.png) ![unemp](img/unemp.png) ![occupation](img/occupation.png)
 - A word could that be generated from the recent Twitter posts which contains 'covid' as a keyword.
 - Each county has six graphics to show the different risk information.
   - The COVID-19 Infection Trend is shown as time-series graph. It has the aggregate infected COVID-19 confirmed cases, the aggregate deaths caused by the COVID-19, the number of patients who have been hospitalized and the incidence rate.
