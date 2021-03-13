@@ -58,3 +58,51 @@ The following are the main functionalities of this smart dashboard.
   - wordcloud
 
 ## Systematic architecture
+
+The smart dashboard is a very intuitive method of data visualization. A dashboard can present different data boards according to requirements. The main function of this project is to map the risk of COVID-19 infection among workers in Washington State by displaying different data. When a user clicks on a different county, the corresponding data changes. The front page of this dashboard is mainly divided into three parts. The header of the dashboard can be used to switch between different pages, including some sharing links for readers to share. The plate on the left mainly contains the basic introduction of this project and the module map for clicking to switch different counties. The panel on the right shows all the data visualization.
+
+The following code is the part of the source code of `left-panel`:
+
+  <div class="ct-grid-container grid-container">
+    <div data-simplebar data-simplebar-auto-hide="true" class="grid-box">
+      <div class="left-panel">
+        <p id="county-name"></p>
+
+        <div class="intro">
+        </div>
+        <div class="map-selector-group-1 btn-group-toggle">
+          <label class="btn btn-secondary" id="overall">
+            <input type="radio" name="options" autocomplete="off">
+            Overall Risk Level to Workers
+          </label>
+        </div>
+        <p><span class="overall-risk">High</span></p>
+        <div class="map-selector-group-2 btn-group btn-group-sm btn-group-toggle" data-toggle="buttons">
+        </div>
+        <div id="map-container"></div>
+        <div class="legend">
+        </div>
+        <hr>
+        <div id="wcloud-title"> Online Discussion
+          <i class="fa fa-info-circle tooltip" aria-hidden="true">
+            <span class="tooltiptext"></span>
+          </i>
+          <span id="stackedBar-title" class="tooltip text-right">Sentiment Score
+          </span>
+        </div>
+        <div>
+          <img id="wcloud-img" src="assets/smedia/img/latest/adams.png" alt="wcloud">
+        </div>
+        <div class="logo"><a href="https://uw.edu" target="_blank"><img src="assets/imgs/uw.png" width="250px"></a></div>
+      </div>
+    </div>
+
+
+I am the person who mainten and update this website. The data basically needs to be updated every half a month. We mainly use the Python documents we have already written to fetch the information we need from different websites and put it into our data documents for data updates. Later, we will also consider writing a model that automatically grabs the data to carry out real-time updates to the data, which will be much more convenient.
+
+## The Critique of Overall UI/UX
+Overall, the design of the dashboard is very reasonable. Dashboard is divided into sections to present specific information. When people click on the map on the left, the data on the right changes accordingly. This mode allows users to easily browse information from different regions. I think the color selection of the dashboard is also user-friendly. The background of the dashboard is dark, but it does not give people a negative feeling.  Instead, it highlights different features.The choice of color for data presentation is also reasonable, such as red or dark colors for high-risk areas.The rest of the colors are also presented with three primary colors.
+
+One drawback, I think, is that Dashboard doesn't automatically reorder the sections based on the size of the screen when reducing the size of the site. Instead, user can swipe left and right on top of the original to see the complete plate. Personally, I think it would be better for the panel on the right, when the user switches to a smaller screen, to reorder everything according to the size of the screen and support scrolling up and down so that each module can be directly displayed within the corresponding size.
+
+## Reflection
