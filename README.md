@@ -4,16 +4,18 @@ By [Yuke Cao](https://www.linkedin.com/in/yuke-cao-261838191/)
 
 ## Project Description
 ![cover](img/cover.png)
-**Goals**
+
+#### Goals
 
 This smart dashboard provides specific information about occupational risk factors and a county level COVID and unemployment assessment. It is built to enable local governments, communities, and workplaces to enact locally appropriate health- and economic-protective policies for workers during this period of economic recovery
 
-**Authors**
+#### Authors
 
 ![hgis](img/hgis.png)
+
 This dashboard is made by [Bo Zhao](https://github.com/jakobzhao), a geography professor at the University of Washington and the Principal Investigator at [Humanistic GIS Laboratory](https://hgis.uw.edu/), with other members in HGIS Lab: Marissa Baker, Kim England, Ellie Cleasby, Fengyu Xu, Jou Ho, Xiaoqi Bao, Kyle Roland, Yuke Cao in 2020. This project is funded by the Population Health Initiative at University of Washington (UW), School of Public Health, Department of Geography and the Harry Bridges Center for Labor Studies; Hosted upon the server offered by UW's Center for Studies in Demography and Ecology (CSDE); Maintained by the UW's Humanistic GIS Laboratory. For more details about this project, visit the website of smart dashboard [COVID-19 Risk to Washington Workers](https://hgis.uw.edu/covid19-workers).
 
-**Functions**
+#### Functions
 
 The following are the main functionalities of this smart dashboard.
 - A clickable map that allows user to navigate through different counties' risk in Washington State. The map contains four different features in different colors to estimate the overall risk level to workers is based on a holistic interpretation of the infection risk, unemployment risk and occupation risk.
@@ -29,7 +31,7 @@ The following are the main functionalities of this smart dashboard.
 - A resource page that lists all the sources.
 - An about page that has the overall information of the dashboard.
 
-**Data Sources**
+#### Data Sources
 
 - Sources
   - Labor Force by County Snapshot
