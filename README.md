@@ -60,7 +60,6 @@ The following are the main functionalities of this smart dashboard.
   - wordcloud
 
 ## Systematic architecture
-
 The smart dashboard is a very intuitive method of data visualization. A dashboard can present different data boards according to requirements. The main function of this project is to map the risk of COVID-19 infection among workers in Washington State by displaying different data. When a user clicks on a different county, the corresponding data changes. The front page of this dashboard is mainly divided into three parts. The header of the dashboard can be used to switch between different pages, including some sharing links for readers to share. The plate on the left mainly contains the basic introduction of this project and the module map for clicking to switch different counties. The panel on the right shows all the data visualization.
 
 The following code is the part of the source code of `left-panel`:
